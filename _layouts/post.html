@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<head>
+    <title>{{ page.title }}</title>
+</head>
+<style>
+    p{
+          text-indent: 10%; 
+          
+    }
+</style>
+
+{% include navigation.html %}
+
+<h3>{{ page.title | camelcase }}</h3>
+<p class="nospacing" style="color: grey;">{{ page.date | date_to_string }}</p>
+
+{{ content }}

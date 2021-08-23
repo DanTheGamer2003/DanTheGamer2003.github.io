@@ -136,24 +136,13 @@ h1 {
     margin-bottom: 0;
 }
 
-h2 {
-    font-family: Merriweather, Georgia, serif;
-    font-weight: 400;
-    font-size: 24px;
-    color:#333333;
-}
-
 p{
     font-family: Merriweather, Georgia, serif;
     font-weight: 400;
     font-size: 18px;
+    text-indent: 10%;
     line-height: 1.7em;
     color:#333333;
-}
-
-p.images{
-    text-indent: 0;
-    margin-bottom: 0;
 }
 
 p.links{
@@ -166,30 +155,6 @@ p.links{
 p.nospacing{
     text-indent: 0;
     margin-top: 0;
-    margin-bottom: 0;
-}
-
-p.posts{
-    text-indent: 10%;
-}
-
-p.caption{
-    text-indent: 0;
-    font-size: 14px;
-    color: grey;
-    margin-top: 0%;
-    margin-bottom: 0;
-}
-
-p.excerpt{
-    font-size: 16px;
-}
-
-h3{
-    font-family: Merriweather, Georgia, serif;
-    font-weight: bold;
-    font-size: 24px;
-    color:#333333;
     margin-bottom: 0;
 }
 
