@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* general */
 header{
     background-color: none;
-    padding: 3% 2% 3% 2%;
+    padding: 3% 2% 3% 0%;
+}
+
+footer{
+    display: inline;
 }
 
 body{
@@ -128,8 +133,9 @@ li a:hover{
  */
 
 /* fonts */
+
 h1 {
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Arial', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     line-height: 1em;
     margin-top: 0;
@@ -157,16 +163,21 @@ p.images{
 }
 
 p.links{
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Arial', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     text-indent: 0;
     line-height: 1em;
+    font-weight: 500;
 }
 
 p.nospacing{
     text-indent: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+p.footer{
+    margin-top: 1%;
 }
 
 p.posts{
@@ -191,6 +202,11 @@ h3{
     font-size: 24px;
     color:#333333;
     margin-bottom: 0;
+}
+
+img.footer{
+    width: 40px;
+    height: 40px;
 }
 
 a:link{
