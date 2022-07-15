@@ -1,0 +1,36 @@
+I"[<p>&lt;!DOCTYPE html&gt;</p>
+<html>
+
+<head>
+</head>
+
+<body>
+
+       
+<header>
+    <a class="linkNoColour" href="https://danialaminrahmanlou.com/"><h1>Hi. I'm Danial Amin-Rahmanlou.</h1></a>
+    <p class="nospacing" style="font-size: 20px; color: grey; text-indent: 0%;">"dan-yuhl • aa-min • rah-man-loo"
+    </p>
+
+</header>
+
+<nav>
+    
+      <a class="navLink" href="/" style="margin-right: 3%;">
+        Home
+      </a>
+    
+      <a class="navLink" href="/blog.html" style="margin-right: 3%;">
+        Blog
+      </a>
+    
+      
+  </nav>
+        
+
+        <p>this is a test</p>
+
+</body>
+
+</html>
+:ET
